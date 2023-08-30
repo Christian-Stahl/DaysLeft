@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "days-to-sef-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/daysToSef/DaysToSefWebPart.js",
+          "manifest": "./src/webparts/daysToSef/DaysToSefWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "DaysToSefWebPartStrings": "lib/webparts/daysToSef/loc/{locale}.js"
+  }
+}

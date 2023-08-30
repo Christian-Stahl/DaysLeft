@@ -1,0 +1,102 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+.wrapper {
+  background: #ededed;
+  border-radius: 10px;
+  text-align: center;
+    .main {
+      margin: 0px auto;
+    }
+    .header {
+      padding: 10px 0 5px 0px;
+    }
+    .icon {
+      background: none;
+      width: 40px;
+      position: relative;
+      top: -1px;
+      left: 4px;
+    }
+    .eventHeader {
+      font-size: 2.5em;
+      margin-top: 10px;
+      margin-bottom: 15px;
+    }
+    .headerText {
+      display: inline-block;
+      padding-left: 10px;
+      position: relative;
+      top: -12px;
+      font-size: 1.4em;
+      font-family: Roboto,sans-serif;
+      color: #4c6377;
+    }
+    .contentText {
+      padding: 10px 50px 15px 50px;
+    }
+    .daysLeft {
+      padding: 15px;
+    }
+    .timeLeft {
+      text-align: center;
+    }
+    .speakerInSpotlighWrapper {
+      background: transparent;
+    }
+    .speakerInSpotlight {
+      text-align: center;
+      font-size: 20px;
+      padding-bottom: 20px;
+      font-family: "Roboto", sans-serif;
+    }
+    .speakerName {
+      text-align: center;
+      font-size: 20px;
+      padding-top: 10px;
+      font-family: "Roboto", sans-serif;
+    }
+    .speakerImgWrapper {
+      text-align: center;
+    }
+    .speakerPic {
+      border: 1px solid #bbb;
+      border-radius: 15px;
+      max-width: 200px;
+      text-align: center;
+    }
+    .speakerBio {
+      text-align: center;
+      padding: 10px 50px 10px 50px;
+      color: #8c8c8c;
+    }
+    .speakerReadMore {
+      text-align: center;
+      padding: 5px 25px 10px 25px;
+    }
+    .speakerReadMore a:link, .speakerReadMore a:visited {
+      color: #8c8c8c;
+    }
+    .speakerReadMore a:hover{
+      color: rgb(185, 4, 4);
+    }
+
+    .webpartFooter {
+        font-size: 11px;
+        font-style: italic;
+        text-align: right;
+        padding: 10px;
+    }
+    .createdBy, .countingToText  {
+      padding: 0;
+      font-style: italic;
+      top: 12px;
+    }
+    .countingToText {
+      .countingToDate {
+        font-weight: 700;
+      }
+
+  }
+
+
+}

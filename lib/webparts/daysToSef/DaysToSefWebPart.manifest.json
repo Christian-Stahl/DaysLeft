@@ -1,0 +1,32 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "67b953b6-48a4-4221-b125-eba568cf9f59",
+  "alias": "DaysLeft",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "Days left" },
+    "description": { "default": "Days left to the event" },
+    "officeFabricIconFontName": "ReminderTime",
+    "properties": {
+      "description": "",
+      "eventHeader": "SEFORUM 2023",
+      "eventText": "Now there is not far left until this year's event... Learn about Microsoft 365 from world class experts! This year with focus on AI! Go to SEFORUM to get inspired, leave with a lot of innovative ideas, more knowledge and new contacts!",
+      "eventYearDropdown": "2023",
+      "eventMonthDropdown": "09",
+      "eventDay": "11",
+      "eventHour": "08",
+      "eventMinute": "15",
+      "createdBy": "Created for SEF 2023",
+        "properties": {
+        "description": "daysLeft"
+      }
+    }
+  }]
+}

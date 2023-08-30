@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "days left",
+    "id": "eec0a783-6d7b-4a6b-99a6-785e2470b4d2",
+    "version": "1.0.0.4",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.17.3"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "days left to the event"
+      },
+      "longDescription": {
+        "default": "days left to the event"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "days-to-sef Feature",
+        "description": "The feature that activates elements of the days-to-sef solution.",
+        "id": "91abd05a-dbb1-4cf2-bfbc-d51305f5881f",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/days-to-sef.sppkg"
+  }
+}
